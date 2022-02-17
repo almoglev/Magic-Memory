@@ -18,6 +18,7 @@ border-radius: 6px;
   .flipped .front {
     transform: rotateY(0deg);
     transition-delay: 0.2s;
+    pointer-events: none;
   }
   
 /* back of card - cover */
@@ -28,4 +29,5 @@ border-radius: 6px;
   .flipped .back {
     transform: rotateY(90deg);
     transition-delay: 0s;
+    pointer-events: none;
   }
